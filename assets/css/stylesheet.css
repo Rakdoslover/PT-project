@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu&display=swap');
+
+/* header */
+#header {
+    color:darkslategray;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 1%;
+
+}
+
+
+/* Body */
+
+body{
+    font-family: Ubuntu, sans-serif;
+    font-size: large ;
+    color:darkslategray;
+}
+/* Footer */
+
+footer{
+    height: 100px;
+    width: 100%;
+    background: fixed seagreen;
+    position: fixed;
+    bottom: 0;
+
+}
+footer, h3{
+    color: aliceblue;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: medium;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+}
+.link{
+    text-align: center;
+    color: aliceblue;
+    font-size: medium;
+}
