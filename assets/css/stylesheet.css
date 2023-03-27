@@ -1,18 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 /* header */
+.header-line{
+    
+}
 #header {
     color:darkslategray;
     font-family: Ubuntu, sans-serif;
     text-align: center;
     font-size: xxx-large;
-    margin-top: 1%;
+    margin-top: 10%%;
 
 }
 
 
 /* Body */
 
+body, html{
+    height: 100%;
+}
+
+/* hero image*/
+
+#hero-image{
+    height: 600px;
+    width: 100vw;
+    background: url('../image/hero-image1.webp') no-repeat  center;
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+}
 body{
     font-family: Ubuntu, sans-serif;
     font-size: large ;
@@ -21,9 +43,9 @@ body{
 /* Footer */
 
 footer{
-    height: 100px;
+    height: 75px;
     width: 100%;
-    background: fixed seagreen;
+    background: fixed darkslategray;
     position: fixed;
     bottom: 0;
 
@@ -37,6 +59,9 @@ footer, h3{
 li{
     list-style-type: none;
     text-align: center;
+    display: inline-block;
+    padding: 5px;
+
 }
 .link{
     text-align: center;
