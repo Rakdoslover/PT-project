@@ -24,6 +24,11 @@
     padding-top: 1rem;
     font-size: large;
 }
+#menu-list{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 
 /* Body */
@@ -41,6 +46,36 @@ h1, h2, h3, h4{
     text-align: left;
     text-transform: uppercase;
     text-decoration: solid;
+}
+
+/* sections */
+
+section{
+   
+}
+.instruction-box {
+    
+    width: 40%;
+    border: 2px solid darkslategray;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.section-h3{
+    float: left;
+    text-align: left;
+    text-transform: uppercase;
+    color: darkslategray;
+    margin: auto;
+   padding: 2rem;
+}
+ol{
+    list-style-type: upper-roman;
+}
+p{
+    text-decoration: underline;
+    padding-bottom: 1rem;
+    width: 40%
 }
 /* hero image*/
 
@@ -60,7 +95,7 @@ body{
 /* Footer */
 
 footer{
-    height: 75px;
+    height: 65px;
     width: 100%;
     background: fixed darkslategray;
     position: fixed;
